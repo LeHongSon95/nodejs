@@ -1,0 +1,17 @@
+
+    <% for ( let c of news) { %> 
+        <ul style="display: flex;"></ul>
+            <li class="nav-item">
+                <a class="nav-link" "><%=c.TieuDe%></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" ><%=c.TomTat%></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" ><%=c.Ngay%></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" ><%=c.SoLanXem%></a>
+            </li>
+        </ul>
+    <% } %>
